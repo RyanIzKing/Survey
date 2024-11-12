@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta>
+    </head>
+    <!--Step 1-->
+    <h1 id="title">Survey 4 Cash</h1>
+    <!--Step 2-->
+    <p id="description">Fill out this survey, receive $5</p>
+    <!--Step 3-->
+    <form id="survey-form">
+        <!--Step 4-->
+        <label id="name-label">Enter Your Name:</label>  <!--Step 11 starts here-->
+        <br>
+        <input id="name" type="text" required placeholder="Enter Name">
+        <br>
+        <!--Step 5-->
+        <label id="email-label">Enter Your Email:</label>
+        <br>
+        <input id="email" type="email" required placeholder="Enter Email">
+        <br>
+        <!--Step 7-->
+        <label id="number-label">Enter a Number:</label> <!--Step 11 ends here-->
+        <br>
+        <!--Step 10-->
+        <input id="number" type="number" min="0" max="9" required placeholder="Enter Number">
+        <br>
+        <br>
+        <!--Step 12-->
+        <select id="dropdown" >
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+        <br>
+        <br>
+        <button type="radio" name="button" value="yes">Yes</button>
+        <button type="radio" name="button" value="no">No</button>
+        <br>
+        <br>
+        <input name="checkboxes" type="checkbox" value="yes">
+        <label>Yes</label>
+
+        <input name="checkboxes" type="checkbox" value="no">
+        <label>No</label>
+
+        <input name="checkboxes" type="checkbox" value="maybe">
+        <label>Maybe</label>
+        <br>
+        <br>
+
+        <label>Yes</label>
+        <input type="radio" name="inputNonButton" value="input1">
+
+        <label>No</label>
+        <input type="radio" name="inputNonButton" value="input2"> 
+
+        <br>
+        <br>
+        <textarea placeholder="Enter Text"></textarea>
+        <br>
+        <br>
+        <button id="submit" type="submit">Sumbit</button>
+    </form> 
+</html>
